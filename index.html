@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chaimae Nouiti — Portfolio Créatif</title>
+    <meta name="description"
+        content="Portfolio de Chaimae Nouiti — Développeuse Web & Designer UI/UX créative basée au Maroc.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Curseur -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Chargement -->
+    <div class="page-loader" id="page-loader">
+        <div class="loader-logo">Chaimae <span style="color: var(--primary);">Nouiti</span></div>
+        <div class="loader-bar">
+            <div class="loader-fill"></div>
+        </div>
+    </div>
+
+    <!-- En-tête -->
+    <header id="site-header">
+        <nav id="main-nav">
+            <div class="logo">
+                <a href="#home">Chaimae<span>.</span></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Accueil</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-cta">
+                <a href="#contact" class="btn-nav">Travaillons ensemble</a>
+            </div>
+            <div class="menu-toggle" id="mobile-menu" aria-label="Menu mobile">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Section Accueil -->
+        <section id="home" class="hero">
+            <!-- Decorative background blobs -->
+            <div class="hero-bg">
+                <div class="blob blob-1"></div>
+                <div class="blob blob-2"></div>
+                <div class="blob blob-3"></div>
+            </div>
+
+            <div class="hero-inner">
+                <div class="hero-content">
+                    <p class="hero-eyebrow fade-up">✦ &nbsp; Bienvenue dans mon univers créatif</p>
+                    <h1 class="fade-up">
+                        <span class="hero-name">Chaimae</span>
+                        <span class="hero-name italic">Nouiti</span>
+                    </h1>
+                    <p class="hero-tagline fade-up">Développeuse Web &amp; Software Engineer</p>
+                    <p class="hero-desc fade-up">Je conçois des solutions logicielles performantes et innovantes — à
+                        l'intersection de l'ingénierie système, de l'IA et du web.</p>
+                    <div class="hero-actions fade-up">
+                        <a href="#projects" class="btn btn-primary">Voir mes projets</a>
+                        <a href="#about" class="btn btn-ghost">En savoir plus</a>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="hero-stats fade-up">
+                <div class="stat-item">
+                    <span class="stat-num">3+</span>
+                    <span class="stat-label">Années d'expérience</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-num">20+</span>
+                    <span class="stat-label">Projets réalisés</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-num">15+</span>
+                    <span class="stat-label">Clients satisfaits</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-num">100%</span>
+                    <span class="stat-label">Passion &amp; créativité</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section À propos -->
+        <section id="about" class="about">
+            <div class="container">
+                <div class="section-header-wrapper fade-up" style="margin-bottom: 30px;">
+                    <div class="section-label">01 À propos</div>
+                    <h2 class="section-heading">Passionnée par l'<em>innovation</em> et la <em>performance</em></h2>
+                </div>
+                <div class="about-grid">
+                    <div class="about-text-col fade-up">
+                        <p class="about-intro" style="margin-bottom: 20px;">Je suis Chaimae Nouiti, ingénieure logicielle et développeuse web. Je conçois des systèmes robustes et des applications performantes.</p>
+                        
+                        <p class="about-body" style="margin-bottom: 30px;">Mon approche est résolument technique : qu'il s'agisse d'optimiser l'allocation mémoire en C, d'entraîner des modèles d'IA, ou de sécuriser un réseau Linux, j'aime résoudre des problèmes complexes avec du code propre et efficace.</p>
+
+                        <div class="about-quote-inline" style="margin-bottom: 40px; font-style: italic; color: var(--text-muted); text-align: center;">
+                            <p>"L'intelligence d'un système réside dans la simplicité de son architecture."</p>
+                        </div>
+
+                        <a href="#contact" class="btn btn-primary" style="margin: 0 auto; display: inline-flex;">Me contacter</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Compétences -->
+        <section id="skills" class="skills" style="background-color: var(--bg-main);">
+            <div class="container">
+                <div class="section-header-wrapper fade-up">
+                    <div class="section-label">02 Compétences</div>
+                    <h2 class="section-heading">Mon <em>expertise</em> technique</h2>
+                    <p class="section-sub">Les langages et technologies que je maîtrise.</p>
+                </div>
+
+                <div class="skills-grid fade-up">
+                    <div class="skill-card"><i class="fas fa-code"></i><span>C / C++</span></div>
+                    <div class="skill-card"><i class="fab fa-python"></i><span>Python &amp; IA</span></div>
+                    <div class="skill-card"><i class="fab fa-linux"></i><span>Linux &amp; Bash</span></div>
+                    <div class="skill-card"><i class="fas fa-network-wired"></i><span>Réseaux &amp; Sécurité</span>
+                    </div>
+                    <div class="skill-card"><i class="fas fa-database"></i><span>SQL &amp; BDD</span></div>
+                    <div class="skill-card"><i class="fab fa-js-square"></i><span>Web Full-Stack</span></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Services -->
+        <section id="services" class="services">
+            <div class="container">
+                <div class="section-header-wrapper fade-up">
+                    <div class="section-label">03 Services</div>
+                    <h2 class="section-heading">Ce que je <em>fais</em></h2>
+                    <p class="section-sub">Des solutions digitales complètes, du concept à la mise en ligne.</p>
+                </div>
+
+                <div class="services-grid">
+                    <div class="service-card fade-up">
+                        <div class="service-icon"><i class="fas fa-microchip"></i></div>
+                        <h3>Ingénierie Logicielle</h3>
+                        <p>Développement de systèmes bas niveau, gestion de la mémoire et optimisation d'algorithmes
+                            complexes.</p>
+                        <div class="service-footer">
+                            <span>C / C++</span><span>Algorithmique</span><span>Optimisation</span>
+                        </div>
+                    </div>
+                    <div class="service-card fade-up">
+                        <div class="service-icon"><i class="fas fa-brain"></i></div>
+                        <h3>Intelligence Artificielle</h3>
+                        <p>Création et entraînement de modèles de machine learning et de systèmes de vision par
+                            ordinateur.</p>
+                        <div class="service-footer">
+                            <span>Python</span><span>TensorFlow</span><span>OpenCV</span>
+                        </div>
+                    </div>
+                    <div class="service-card fade-up">
+                        <div class="service-icon"><i class="fas fa-server"></i></div>
+                        <h3>Système &amp; Réseaux</h3>
+                        <p>Administration Linux, automatisation par scripts, sécurisation et conception d'architectures
+                            réseau.</p>
+                        <div class="service-footer">
+                            <span>Linux</span><span>Bash</span><span>TCP/IP</span>
+                        </div>
+                    </div>
+                    <div class="service-card fade-up">
+                        <div class="service-icon"><i class="fas fa-globe"></i></div>
+                        <h3>Web Full-Stack</h3>
+                        <p>Développement d'applications web complètes, de la base de données SQL jusqu'à l'interface
+                            utilisateur.</p>
+                        <div class="service-footer">
+                            <span>React</span><span>Node.js</span><span>SQL</span>
+                        </div>
+                    </div>
+                    <div class="service-card fade-up">
+                        <div class="service-icon"><i class="fas fa-shield-alt"></i></div>
+                        <h3>Audit de Sécurité</h3>
+                        <p>Analyse de vulnérabilités, tests d'intrusion et sécurisation des infrastructures critiques.
+                        </p>
+                        <div class="service-footer">
+                            <span>Cyber</span><span>Pen-test</span><span>Hardening</span>
+                        </div>
+                    </div>
+                    <div class="service-card fade-up">
+                        <div class="service-icon"><i class="fas fa-cloud"></i></div>
+                        <h3>Cloud &amp; DevOps</h3>
+                        <p>Déploiement continu, conteneurisation et gestion d'infrastructures évolutives dans le cloud.
+                        </p>
+                        <div class="service-footer">
+                            <span>Docker</span><span>CI/CD</span><span>AWS/GCP</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Projets -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <div class="section-header-wrapper fade-up">
+                    <div class="section-label">04 Projets</div>
+                    <h2 class="section-heading">Mes <em>créations</em></h2>
+                    <p class="section-sub">Une sélection de projets réalisés avec passion et précision.</p>
+                </div>
+
+                <div class="project-filters fade-up">
+                    <button class="filter-btn active" data-filter="all">Tous</button>
+                    <button class="filter-btn" data-filter="Web Dev">Web Dev</button>
+                    <button class="filter-btn" data-filter="C Programming">C</button>
+                    <button class="filter-btn" data-filter="AI">IA</button>
+                    <button class="filter-btn" data-filter="Networking">Réseaux</button>
+                    <button class="filter-btn" data-filter="Linux">Linux</button>
+                    <button class="filter-btn" data-filter="SQL">SQL</button>
+                </div>
+
+                <!-- Filtres -->
+                <div id="project-loader" class="loader-container">
+                    <div class="spinner"></div>
+                    <p>Chargement des projets…</p>
+                </div>
+
+                <!-- Erreur de chargement -->
+                <div id="project-error" class="error-container hidden">
+                    <i class="fas fa-exclamation-triangle"></i>
+                    <p>Une erreur est survenue lors du chargement des projets.</p>
+                    <button id="retry-btn" class="btn btn-primary">Réessayer</button>
+                </div>
+
+                <!-- Grille des projets -->
+                <div id="project-grid" class="project-grid"></div>
+            </div>
+        </section>
+
+        <!-- Section Contact -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="section-header-wrapper fade-up">
+                    <div class="section-label">05 Contact</div>
+                    <h2 class="section-heading">Parlons de votre <em>projet</em></h2>
+                    <p class="contact-intro">Je suis ouverte aux nouvelles collaborations et opportunités. Envoyez-moi
+                        un message et répondrai dans les plus brefs délais.</p>
+                </div>
+                <div class="contact-grid">
+                    <div class="contact-left fade-up">
+
+                        <div class="contact-details">
+                            <div class="detail-item">
+                                <div class="detail-icon"><i class="fas fa-envelope"></i></div>
+                                <div>
+                                    <span class="detail-label">Email</span>
+                                    <span class="detail-value">chaimaeenoui@gmail.com</span>
+                                </div>
+                            </div>
+                            <div class="detail-item">
+                                <div class="detail-icon"><i class="fas fa-location-dot"></i></div>
+                                <div>
+                                    <span class="detail-label">Localisation</span>
+                                    <span class="detail-value">Ait Melloul, Maroc</span>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="contact-right fade-up">
+                        <form id="contact-form" class="contact-form" novalidate>
+                            <div class="form-row">
+                                <div class="form-group floating">
+                                    <input type="text" id="name" name="name" required placeholder=" ">
+                                    <label for="name">Votre nom complet</label>
+                                    <span class="form-line"></span>
+                                </div>
+                                <div class="form-group floating">
+                                    <input type="email" id="email" name="email" required placeholder=" ">
+                                    <label for="email">Adresse email</label>
+                                    <span class="form-line"></span>
+                                </div>
+                            </div>
+                            <div class="form-group floating">
+                                <input type="text" id="subject" name="subject" placeholder=" ">
+                                <label for="subject">Sujet</label>
+                                <span class="form-line"></span>
+                            </div>
+                            <div class="form-group floating">
+                                <textarea id="message" name="message" required placeholder=" " rows="5"></textarea>
+                                <label for="message">Votre message</label>
+                                <span class="form-line"></span>
+                            </div>
+                            <button type="submit" id="submit-btn" class="btn btn-submit">
+                                <span class="btn-text">Envoyer le message</span>
+                                <i class="fas fa-arrow-right btn-icon"></i>
+                            </button>
+                            <div id="form-status" class="form-status"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Pied de page -->
+    <footer>
+        <div class="container footer-inner">
+            <div class="footer-brand">
+                <span class="footer-logo">Chaimae.</span>
+                <p>Créer l'extraordinaire à partir du simple.</p>
+            </div>
+            <div class="footer-links">
+                <a href="#home">Accueil</a>
+                <a href="#about">À propos</a>
+                <a href="#skills">Compétences</a>
+                <a href="#services">Services</a>
+                <a href="#projects">Projets</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <p class="footer-copy">&copy; 2026 Chaimae Nouiti. Fait avec <i class="fas fa-heart"></i></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

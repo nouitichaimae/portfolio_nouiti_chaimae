@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Détails du Projet — Chaimae Nouiti</title>
+    <meta name="description" content="Détails du projet par Chaimae Nouiti.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Page Loader -->
+    <div class="page-loader" id="page-loader">
+        <div class="loader-logo">Chaimae <span style="color: var(--primary);">Nouiti</span></div>
+        <div class="loader-bar"><div class="loader-fill"></div></div>
+    </div>
+
+    <!-- ======================== HEADER ======================== -->
+    <header id="site-header">
+        <nav id="main-nav">
+            <div class="logo">
+                <a href="index.html#home">Chaimae<span>.</span></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html#home">Accueil</a></li>
+                <li><a href="index.html#about">À propos</a></li>
+                <li><a href="index.html#skills">Compétences</a></li>
+                <li><a href="index.html#services">Services</a></li>
+                <li><a href="index.html#projects" class="active">Projets</a></li>
+            </ul>
+            <div class="nav-cta">
+                <a href="index.html#contact" class="btn-nav">Travaillons ensemble</a>
+            </div>
+            <div class="menu-toggle" id="mobile-menu" aria-label="Menu mobile">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="project-detail-section" style="padding-top: 150px; min-height: 80vh;">
+            <div class="container" id="project-detail-container">
+                <!-- Project details will be injected here by JS -->
+                <div class="loader-container">
+                    <div class="spinner"></div>
+                    <p>Chargement des détails...</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ======================== FOOTER ======================== -->
+    <footer>
+        <div class="container footer-inner">
+            <div class="footer-brand">
+                <span class="footer-logo">Chaimae.</span>
+                <p>Créer l'extraordinaire à partir du simple.</p>
+            </div>
+            <div class="footer-links">
+                <a href="index.html#home">Accueil</a>
+                <a href="index.html#about">À propos</a>
+                <a href="index.html#skills">Compétences</a>
+                <a href="index.html#services">Services</a>
+                <a href="index.html#projects">Projets</a>
+                <a href="index.html#contact">Contact</a>
+            </div>
+            <p class="footer-copy">&copy; 2026 Chaimae Nouiti. Fait avec <i class="fas fa-heart"></i></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

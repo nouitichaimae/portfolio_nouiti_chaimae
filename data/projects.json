@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "title": "Premium Agency Website",
+        "category": "Web Dev",
+        "description": "A fully responsive, high-performance web application built for a creative agency, featuring dynamic routing and smooth animations.",
+        "image": "images/project1.jpg",
+        "tech": ["HTML5", "CSS3", "JavaScript ES6+", "React"],
+        "link": "#"
+    },
+    {
+        "id": 2,
+        "title": "Core System Memory Allocator",
+        "category": "C Programming",
+        "description": "A highly optimized, low-level memory allocator implemented in C, designed to outperform standard library malloc in specific embedded environments.",
+        "image": "images/project2.jpg",
+        "tech": ["C", "GCC", "Valgrind", "Makefile"],
+        "link": "#"
+    },
+    {
+        "id": 3,
+        "title": "Neural Vision Engine",
+        "category": "AI",
+        "description": "An artificial intelligence system designed for real-time image recognition and pattern analysis in medical diagnostics.",
+        "image": "images/project3.jpg",
+        "tech": ["Python", "TensorFlow", "OpenCV"],
+        "link": "#"
+    },
+    {
+        "id": 4,
+        "title": "Secure Mesh Router",
+        "category": "Networking",
+        "description": "A decentralized network routing protocol implementation focusing on fault tolerance and encrypted data transmission across untrusted nodes.",
+        "image": "images/project4.jpg",
+        "tech": ["C++", "TCP/IP", "Wireshark", "Cryptography"],
+        "link": "#"
+    },
+    {
+        "id": 5,
+        "title": "Automated Linux Provisioning",
+        "category": "Linux",
+        "description": "A comprehensive suite of Bash scripts for automated server provisioning, user management, and security hardening on Debian-based systems.",
+        "image": "images/project5.jpg",
+        "tech": ["Bash", "Linux", "Systemd", "SSH"],
+        "link": "#"
+    },
+    {
+        "id": 6,
+        "title": "Enterprise Database Analytics",
+        "category": "SQL",
+        "description": "A complex relational database design and optimization project, featuring advanced SQL queries, stored procedures, and performance tuning.",
+        "image": "images/project6.jpg",
+        "tech": ["PostgreSQL", "SQL", "Database Design", "Performance Tuning"],
+        "link": "#"
+    }
+]
